@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.happy-container {
+  background-color: #f0a500;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.happy-text {
+  color: green;
+  font-size: 3vw;
+  height: auto;
+}
+
+h3 {
+  text-align: center;
+  color: grey;
+}
+
+.breed-container-tag {
+  display: flex;
+  font-family: Arial;
+}
+
+.tag {
+  background-color: #9d65c9;
+  padding: 8px;
+  font-size: 40px;
+  border-radius: 20px 0px 20px 0px;
+  color: white;
+}
+
+.cards-container img {
+  display: block;
+  border-radius: 5%;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+  margin: 10px;
+  background-color: #95389e;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  color: white;
+  padding: 0;
+}
+
+.heading-div {
+  background-color: ;
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+.heading {
+  margin-top: 10px;
+  color: #f0a500;
+  font-size: 5vh;
+  font-family: Arial;
+}
+
+.sec-head {
+  color: #342ead;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.para-1, .para-2, .para-3 {
+  text-align: justify;
+  font-family: Arial;
+}
+
+.after-about-us {
+  width: 70%;
+  background-color: #f0a500;
+  margin: auto;
+  align-items: center;
+}
+
+.after-about-us-h1 {
+  color: white;
+  font-family: arial;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.after-about-us-p {
+  padding-bottom: 10px;
+  color: white;
+  font-family: arial;
+  text-align: center;
+}
+
+.form {
+  width: 40%;
+  margin: auto;
+}
+
+.contact-us {
+  text-align: center;
+}
+
+.footer-container {
+  height: 150px;
+  background-color: black;
+  margin-top: 50px;
+}
+
+a {
+  display: block;
+}
+
+.footer {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.footer img {
+  border-radius: 40%;
+  margin: 20px;
+}
+
+img {
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+@media all and (max-width:700px) {
+  .card-1, .card-2, .card-3, .card-4 {
+    margin: 10px 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .form {
+    width: 80%;
+    margin: auto;
+  }
+
+  .heading-div {
+    width: 80%;
+  }
+
+  .after-about-us {
+    width: 100%;
+    padding: 5%;
+    text-align: justify;
+  }
+}
+
+@media all and (max-width:700px) {
+  .cards-container img {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+.card-1:hover {
+  box-shadow: 10px 10px 20px #521262;
+}
+
+.card-3:hover {
+  box-shadow: 10px 10px 20px #521262;
+}
+
+.card-2:hover {
+  box-shadow: 10px 10px 20px #521262;
+}
+
+.card-4:hover {
+  box-shadow: 10px 10px 20px #521262;
+}
+
+.footer img:hover {
+  box-shadow: 1px 1px 15px white;
+}
